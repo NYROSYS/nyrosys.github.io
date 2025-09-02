@@ -1,5 +1,6 @@
 ---
 layout: home
+paginate: 0
 title: "Nyrosys — Conseil & Automatisation IT"
 description: "Micro-entreprise à Strasbourg : optimisation serveurs Linux (Debian), automatisation, apps mobiles, scripts, templates KDP/Gumroad."
 permalink: /

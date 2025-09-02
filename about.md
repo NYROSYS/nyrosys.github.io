@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: À propos
 description: "Qui suis-je — Nyrosys, micro-entreprise IT à Strasbourg, optimisation Linux, automatisation et apps simples."
 permalink: /about/
