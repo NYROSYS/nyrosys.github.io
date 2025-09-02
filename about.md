@@ -7,8 +7,7 @@ permalink: /about/
 
 ## Nyrosys, c’est qui ?
 
-Je m’appelle **Celys** (alias **Nyrosys**).  
-De formation admin systèmes & réseaux et **technico-commercial** chez XEFI, je crée des **outils simples** qui font gagner du temps : scripts d’admin, automatisations, petits services web, et **apps mobiles légères**.
+De formation admin systèmes & réseaux, je crée des **outils simples** qui font gagner du temps : scripts d’admin, automatisations, petits services web, et **apps mobiles légères**.
 
 ### Ma philosophie
 
