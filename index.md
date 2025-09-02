@@ -11,7 +11,7 @@ hero:
 ---
 
 <div class="lead">
-Nyrosys aide les TPE/PME et les créateurs à **gagner du temps** grâce à l’automatisation et à une infra bien réglée.
+Nyrosys aide les TPE/PME et les créateurs à <strong>gagner du temps</strong> grâce à l’automatisation et à une infra bien réglée.
 </div>
 
 ## Services
@@ -34,7 +34,6 @@ Nyrosys aide les TPE/PME et les créateurs à **gagner du temps** grâce à l’
 
 ## Produits & Templates
 
-- **Journal de gratitude 90 jours** — pack DOCX & PDF prêt KDP  
 - **Scripts d’admin** — sauvegardes, logs, rapports PDF  
 - **Starter “Site statique pro”** — Jekyll + GitHub Pages (comme ce site)
 
