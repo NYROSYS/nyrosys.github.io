@@ -3,6 +3,7 @@ email: "nyrosys@gmail.com"
 description: "Conseil & Automatisation IT — Strasbourg"
 url: "https://nyrosys.fr"
 lang: fr
+locale: fr-FR
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 plugins:
@@ -12,22 +13,6 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-# Navigation (exemple)
-navigation:
-  - title: "Accueil"
-    url: /
-  - title: "À propos"
-    url: /about/
-  - title: "Articles"
-    url: /posts/
-
-# Layout par défaut
-defaults:
-  - scope: {path: ""}
-    values: {layout: single}
-  - scope: {path: "", type: posts}
-    values: {layout: single, author_profile: false}
-
-# Activer la TOC si besoin
-toc: true
-toc_sticky: true
+# Options
+title-separator: "-"
+breadcrumbs: true
