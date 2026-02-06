@@ -5,14 +5,96 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="NYROSYS — independent creative label for experimental, digital-native art projects." />
   <title>NYROSYS</title>
+
+  <!-- Fonts (no build). Can be self-hosted later. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
-<body>
-  <h1>NYROSYS</h1>
-  <p>Independent creative label for experimental, digital-native art projects.</p>
-  <p><a href="/override/">OVERRIDE</a></p>
+
+<body class="grain">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="brand" href="/" aria-label="NYROSYS Home">NYROSYS</a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <section class="hero">
+      <h1 class="hero__title">NYROSYS</h1>
+      <p class="hero__lead">Independent creative label for experimental, digital-native art projects.</p>
+    </section>
+
+    <section class="section" aria-labelledby="about">
+      <h2 id="about" class="section__title">About</h2>
+      <div class="card">
+        <p>NYROSYS is a small structure producing and hosting experimental artistic projects.</p>
+        <p>We focus on clear releases, strong presentation, and a sober public presence.</p>
+        <p>First public project: <a href="/override/">OVERRIDE</a>.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-labelledby="projects-title">
+      <h2 id="projects-title" class="section__title">Projects</h2>
+
+      <div class="list">
+        <article class="item">
+          <div class="item__top">
+            <h3 class="item__title"><a href="/override/">OVERRIDE</a></h3>
+            <span class="pill pill--active" title="Status">active</span>
+          </div>
+          <p class="item__desc">Synthetic band project. Public-facing. Active.</p>
+          <div class="meta">
+            <span class="meta__k">type</span><span class="meta__v">project</span>
+            <span class="meta__k">page</span><span class="meta__v"><a href="/override/">/override/</a></span>
+          </div>
+        </article>
+
+        <article class="item item--muted" aria-label="More projects soon">
+          <div class="item__top">
+            <h3 class="item__title">More soon</h3>
+            <span class="pill">queued</span>
+          </div>
+          <p class="item__desc">Additional releases and projects will be listed here.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="contact-title">
+      <h2 id="contact-title" class="section__title">Contact</h2>
+      <div class="card">
+        <p>Email: <a href="mailto:contact@nyrosys.fr">contact@nyrosys.fr</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__title">Legal</div>
+          <div class="footer__text">Publisher: NYROSYS</div>
+          <div class="footer__text">Hosting: <span class="muted">to be added</span></div>
+          <div class="footer__text">Contact: <a href="mailto:contact@nyrosys.fr">contact@nyrosys.fr</a></div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__text">© <span id="y"></span> NYROSYS</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Tiny optional JS: year only. Remove for zero-JS.
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

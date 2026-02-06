@@ -3,12 +3,101 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="OVERRIDE — a NYROSYS project." />
   <title>OVERRIDE — NYROSYS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 </head>
-<body>
-  <h1>OVERRIDE</h1>
-  <p>A synthetic band project.</p>
-  <p><a href="/">Back to NYROSYS</a></p>
+
+<body class="grain">
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="header">
+    <div class="wrap header__inner">
+      <a class="brand" href="/" aria-label="NYROSYS Home">NYROSYS</a>
+
+      <nav class="nav" aria-label="Project navigation">
+        <a href="/">Home</a>
+        <a href="#links">Links</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content" class="wrap">
+    <section class="hero hero--project">
+      <div class="kicker">a NYROSYS project</div>
+      <h1 class="hero__title">OVERRIDE</h1>
+      <p class="hero__lead">A synthetic band project: direct, digital, and publicly artificial.</p>
+
+      <div class="meta meta--block">
+        <span class="meta__k">status</span><span class="meta__v"><span class="pill pill--active">active project</span></span>
+        <span class="meta__k">label</span><span class="meta__v">NYROSYS</span>
+      </div>
+    </section>
+
+    <section id="links" class="section" aria-labelledby="links-title">
+      <h2 id="links-title" class="section__title">Links</h2>
+
+      <div class="list">
+        <div class="item">
+          <div class="item__top">
+            <h3 class="item__title">Streaming</h3>
+            <span class="pill">coming soon</span>
+          </div>
+          <p class="item__desc muted">Placeholder for Spotify / Apple Music / etc.</p>
+        </div>
+
+        <div class="item">
+          <div class="item__top">
+            <h3 class="item__title">Video</h3>
+            <span class="pill">coming soon</span>
+          </div>
+          <p class="item__desc muted">Placeholder for YouTube / short-form platforms.</p>
+        </div>
+
+        <div class="item">
+          <div class="item__top">
+            <h3 class="item__title">Social</h3>
+            <span class="pill">coming soon</span>
+          </div>
+          <p class="item__desc muted">Placeholder for official accounts.</p>
+        </div>
+
+        <div class="item">
+          <div class="item__top">
+            <h3 class="item__title">Press kit</h3>
+            <span class="pill">coming soon</span>
+          </div>
+          <p class="item__desc muted">Placeholder for EPK / assets / one-sheet.</p>
+        </div>
+      </div>
+
+      <div class="note">
+        <span class="note__label">Note</span>
+        OVERRIDE is a NYROSYS project.
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__title">NYROSYS</div>
+          <div class="footer__text"><a href="/">nyrosys.fr</a></div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__text">© <span id="y"></span> NYROSYS</div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
