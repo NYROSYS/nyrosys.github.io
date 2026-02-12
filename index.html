@@ -9,10 +9,10 @@
   <!-- Fonts (no build). Can be self-hosted later. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/styles.css" />
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
 </head>
 
 <body class="grain">
@@ -20,7 +20,10 @@
 
   <header class="header">
     <div class="wrap header__inner">
-      <a class="brand" href="/" aria-label="NYROSYS Home">NYROSYS</a>
+      <a class="brand" href="./" aria-label="NYROSYS Home">
+         <img class="brand__mark" src="./assets/nyrosys-mark.svg" alt="" aria-hidden="true">
+         <img class="brand__word" src="./assets/nyrosys-wordmark.svg" alt="NYROSYS">
+      </a>
 
       <nav class="nav" aria-label="Primary">
         <a href="#projects">Projects</a>
@@ -34,6 +37,14 @@
       <h1 class="hero__title">NYROSYS</h1>
       <p class="hero__lead">Independent creative label for experimental, digital-native art projects.</p>
     </section>
+
+   <div class="stamp">
+      <span class="stamp__k">NYROSYS</span>
+      <span class="stamp__sep">/</span>
+      <span class="stamp__v">CATALOG</span>
+      <span class="stamp__sep">/</span>
+      <span class="stamp__v">001</span>
+   </div>
 
     <section class="section" aria-labelledby="about">
       <h2 id="about" class="section__title">About</h2>
@@ -49,15 +60,21 @@
 
       <div class="list">
         <article class="item">
-          <div class="item__top">
-            <h3 class="item__title"><a href="/override/">OVERRIDE</a></h3>
-            <span class="pill pill--active" title="Status">active</span>
-          </div>
-          <p class="item__desc">Synthetic band project. Public-facing. Active.</p>
-          <div class="meta">
-            <span class="meta__k">type</span><span class="meta__v">project</span>
-            <span class="meta__k">page</span><span class="meta__v"><a href="/override/">/override/</a></span>
-          </div>
+           <div class="proj">
+              <img class="proj__art" src="./assets/override-card.svg" alt="" aria-hidden="true">
+      	      <div class="proj__body">
+
+                 <div class="item__top">
+                    <h3 class="item__title"><a href="/override/">OVERRIDE</a></h3>
+                    <span class="pill pill--active" title="Status">active</span>
+                 </div>
+                 <p class="item__desc">Synthetic band project. Public-facing. Active.</p>
+                 <div class="meta">
+                    <span class="meta__k">type</span><span class="meta__v">project</span>
+                    <span class="meta__k">page</span><span class="meta__v"><a href="/override/">/override/</a></span>
+                 </div>
+              </div>
+           </div>
         </article>
 
         <article class="item item--muted" aria-label="More projects soon">

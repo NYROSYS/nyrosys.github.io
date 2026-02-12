@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" fill="none">
+  <rect width="640" height="360" rx="28" fill="#0b0b0c"/>
+  <rect x="22" y="22" width="596" height="316" rx="22" stroke="rgba(233,234,238,0.14)" stroke-width="2"/>
+
+  <!-- grid -->
+  <g opacity="0.22" stroke="rgba(233,234,238,0.18)" stroke-width="1">
+    <path d="M80 22V338"/><path d="M160 22V338"/><path d="M240 22V338"/><path d="M320 22V338"/><path d="M400 22V338"/><path d="M480 22V338"/><path d="M560 22V338"/>
+    <path d="M22 90H618"/><path d="M22 158H618"/><path d="M22 226H618"/><path d="M22 294H618"/>
+  </g>
+
+  <!-- waveform line -->
+  <path d="M70 210
+           C95 180, 120 240, 145 210
+           C170 180, 195 240, 220 210
+           C245 180, 270 240, 295 210
+           C320 180, 345 240, 370 210
+           C395 180, 420 240, 445 210
+           C470 180, 495 240, 520 210
+           C545 180, 570 240, 595 210"
+        stroke="#7AA7FF" stroke-width="4" opacity="0.85" stroke-linecap="round"/>
+
+  <!-- label text -->
+  <g font-family="IBM Plex Mono, ui-monospace, monospace" fill="rgba(233,234,238,0.78)">
+    <text x="48" y="74" font-size="16" letter-spacing="2">OVERRIDE</text>
+    <text x="48" y="104" font-size="12" opacity="0.75">MINI CARD / PLACEHOLDER</text>
+  </g>
+
+  <!-- stamp -->
+  <g font-family="IBM Plex Mono, ui-monospace, monospace">
+    <rect x="440" y="54" width="150" height="34" rx="999" stroke="rgba(122,167,255,0.55)" fill="rgba(122,167,255,0.10)"/>
+    <text x="458" y="76" font-size="12" fill="#7AA7FF" letter-spacing="2">ACTIVE</text>
+  </g>
+</svg>

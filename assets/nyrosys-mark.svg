@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <!-- Shadow (offset) -->
+  <g transform="translate(3,3)" opacity="0.55">
+    <rect x="6" y="6" width="116" height="116" rx="18"
+          stroke="#7AA7FF" stroke-width="6"/>
+    <path d="M36 92V36h14l28 28V36h14v56H78L50 64v28H36Z"
+          fill="#7AA7FF"/>
+  </g>
+
+  <!-- Main -->
+  <rect x="6" y="6" width="116" height="116" rx="18"
+        stroke="currentColor" stroke-width="6"/>
+  <path d="M36 92V36h14l28 28V36h14v56H78L50 64v28H36Z"
+        fill="currentColor"/>
+</svg>
