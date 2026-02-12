@@ -92,23 +92,23 @@ a:focus-visible{
 .brand:hover{ border-bottom:0; }
 
 .brand__mark{
-  width:22px;
-  height:22px;
+  width:28px;
+  height:28px;
   opacity:0.95;
-  color:var(--fg);
+  color: var(--fg);
 }
 
 .brand__word{
-  height:18px;
+  height:24px;
   width:auto;
   opacity:0.95;
-  color:var(--fg);
+  color: var(--fg);
 }
 
 /* Mobile: garder seulement le monogramme */
 @media (max-width: 520px){
   .brand__word{ display:none; }
-  .brand__mark{ width:24px; height:24px; }
+  .brand__mark{ width:30px; height:30px; }
 }
 
 .nav{
@@ -135,10 +135,12 @@ a:focus-visible{
   text-transform:lowercase;
 }
 .hero__title{
-  font-size:40px;
-  line-height:1.06;
-  margin:10px 0 10px;
-  letter-spacing:-0.02em;
+  font-family: var(--brand-font);
+  font-size: clamp(48px, 6vW, 72px);
+  line-height: 1.06;
+  margin: 10px 0 10px;
+  letter-spacing: 0.12em;
+  font-weight: 400;
 }
 .hero__lead{
   margin:0;
@@ -330,14 +332,14 @@ a:focus-visible{
 
 .proj{
   display:grid;
-  grid-template-columns: 180px 1fr;
-  gap:14px;
+  grid-template-columns: 220px 1fr;
+  gap:18px;
   align-items:start;
 }
 .proj__art{
   width:100%;
   height:auto;
-  border-radius:12px;
+  border-radius:16px;
   border:1px solid rgba(233,234,238,0.10);
   background:rgba(233,234,238,0.02);
 }
