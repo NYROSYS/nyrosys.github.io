@@ -75,6 +75,7 @@ a:focus-visible{
   backdrop-filter: blur(10px);
   border-bottom:1px solid var(--line);
   z-index:10;
+  padding: 22px 0;
 }
 .header__inner{
   display:flex;
@@ -86,29 +87,32 @@ a:focus-visible{
 .brand{
   display:flex;
   align-items:center;
-  gap:10px;
-  border-bottom:0;
+  gap:14px;
 }
 .brand:hover{ border-bottom:0; }
 
 .brand__mark{
-  width:28px;
-  height:28px;
-  opacity:0.95;
-  color: var(--fg);
+  width:36px;
+  height:36px;
+  opacity:1;
+  filter: drop-shadow(0 0 6px rgba(122,167,255,0.35));
 }
 
 .brand__word{
-  height:24px;
+  height:32px;
   width:auto;
-  opacity:0.95;
-  color: var(--fg);
-}
+  opacity:1;
+}}
 
 /* Mobile: garder seulement le monogramme */
 @media (max-width: 520px){
   .brand__word{ display:none; }
-  .brand__mark{ width:30px; height:30px; }
+  .brand__mark{ width:34px; height:34px; }
+}
+
+.header .brand__mark,
+.header .brand__word{
+  color: #e9eaee;
 }
 
 .nav{
