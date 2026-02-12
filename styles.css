@@ -102,7 +102,19 @@ a:focus-visible{
   height:32px;
   width:auto;
   opacity:1;
-}}
+  filter: drop-shadow(0 0 10px rgba(0,0,0,0.55));
+}
+
+.brand__plate{
+  display:inline-flex;
+  align-items:center;
+  gap:14px;
+  padding:10px 12px;
+  border-radius:14px;
+  background: rgba(11,11,12,0.65);
+  border: 1px solid rgba(233,234,238,0.12);
+  backdrop-filter: blur(10px);
+}
 
 /* Mobile: garder seulement le monogramme */
 @media (max-width: 520px){
